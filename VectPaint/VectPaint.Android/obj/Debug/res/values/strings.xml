@@ -1,0 +1,1 @@
+<resources><string name="type_prompt">Choose a type</string><string-array name="type_array"><item>Line</item><item>Ellipse</item><item>Rectangle</item></string-array></resources>

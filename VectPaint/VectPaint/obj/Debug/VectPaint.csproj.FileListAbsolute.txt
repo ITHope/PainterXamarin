@@ -1,0 +1,11 @@
+D:\COURSE\Android\VectPaint\VectPaint\VectPaint\bin\Debug\VectPaint.dll
+D:\COURSE\Android\VectPaint\VectPaint\VectPaint\bin\Debug\VectPaint.pdb
+D:\COURSE\Android\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.csproj.CoreCompileInputs.cache
+D:\COURSE\Android\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.dll
+D:\COURSE\Android\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.pdb
+C:\Users\Student\couse\9.10\VectPaint\VectPaint\VectPaint\bin\Debug\VectPaint.dll
+C:\Users\Student\couse\9.10\VectPaint\VectPaint\VectPaint\bin\Debug\VectPaint.pdb
+C:\Users\Student\couse\9.10\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.csprojResolveAssemblyReference.cache
+C:\Users\Student\couse\9.10\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.csproj.CoreCompileInputs.cache
+C:\Users\Student\couse\9.10\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.dll
+C:\Users\Student\couse\9.10\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.pdb
