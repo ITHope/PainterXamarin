@@ -6,13 +6,27 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using SupportToolbar = Android.Support.V7.Widget.Toolbar;
+using SupportFragment = Android.Support.V4.App.Fragment;
+using Android.Support.V7.App;
+using Android.Support.V4.Widget;
+using System.Collections.Generic;
+using Android.Support.V7.Widget;
 
 namespace VectPaint.Droid
 {
 	[Activity (Label = "VectPaint.Android", MainLauncher = true, Icon = "@drawable/icon")]
-	public class MainActivity : Activity
-	{
+	public class MainActivity : ActionBarActivity
+    {
 		XDataAndroid data = new XDataAndroid();
+        private SupportToolbar mToolbar;
+        private SupportToolbar bToolbar;
+        private MenuToggler menuToggler;
+        private DrawerLayout mDrawerLayout;
+        private ListView mLeftDrawer;
+        private ListView mRightDrawer;
+        private Spinner mTab;
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
