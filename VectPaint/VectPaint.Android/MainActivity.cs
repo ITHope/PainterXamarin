@@ -1,5 +1,5 @@
 ﻿using System;
-
+using VectPaint.Droid;
 using Android.App;
 using Android.Content;
 using Android.Runtime;

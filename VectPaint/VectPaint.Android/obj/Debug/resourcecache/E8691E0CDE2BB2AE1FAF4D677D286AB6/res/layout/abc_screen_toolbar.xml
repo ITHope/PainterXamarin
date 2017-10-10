@@ -15,7 +15,7 @@
 -->
 
 <android.support.v7.widget.ActionBarOverlayLayout
-        xmlns:android="http://schemas.android.com/apk/lib/android"
+        xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/decor_content_parent"
         android:layout_width="match_parent"

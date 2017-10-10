@@ -1,8 +1,0 @@
-VectPaint.Droid.MainActivity, VectPaint.Android;md55bdf1bff9ff4761db1358e9d8f0686ce.MainActivity
-VectPaint.Droid.MainActivity, VectPaint.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55bdf1bff9ff4761db1358e9d8f0686ce.MainActivity
-VectPaint.Droid.MainActivity;md55bdf1bff9ff4761db1358e9d8f0686ce.MainActivity
-vectpaint.droid.MainActivity;md55bdf1bff9ff4761db1358e9d8f0686ce.MainActivity
-VectPaint.Droid.PDraw, VectPaint.Android;VectPaint.Droid.PDraw
-VectPaint.Droid.PDraw, VectPaint.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;VectPaint.Droid.PDraw
-VectPaint.Droid.PDraw;VectPaint.Droid.PDraw
-VectPaint.Droid.PDraw;VectPaint.Droid.PDraw
