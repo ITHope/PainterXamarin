@@ -15,3 +15,9 @@ D:\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.csprojResolveAssemblyRefere
 D:\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.csproj.CoreCompileInputs.cache
 D:\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.dll
 D:\VectPaint\VectPaint\VectPaint\obj\Debug\VectPaint.pdb
+E:\projects\c#\PainterXamarin\VectPaint\VectPaint\bin\Debug\VectPaint.dll
+E:\projects\c#\PainterXamarin\VectPaint\VectPaint\bin\Debug\VectPaint.pdb
+E:\projects\c#\PainterXamarin\VectPaint\VectPaint\obj\Debug\VectPaint.csproj.CoreCompileInputs.cache
+E:\projects\c#\PainterXamarin\VectPaint\VectPaint\obj\Debug\VectPaint.dll
+E:\projects\c#\PainterXamarin\VectPaint\VectPaint\obj\Debug\VectPaint.pdb
+E:\projects\c#\PainterXamarin\VectPaint\VectPaint\obj\Debug\VectPaint.csprojResolveAssemblyReference.cache
