@@ -17,7 +17,7 @@ namespace VectPaint.Droid
 {
 	[Activity (Label = "VectPaint.Android", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : ActionBarActivity
-    {
+	{
 		XDataAndroid data = new XDataAndroid();
         private SupportToolbar mToolbar;
         private SupportToolbar bToolbar;
