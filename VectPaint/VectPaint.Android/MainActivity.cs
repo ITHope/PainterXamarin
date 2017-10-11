@@ -15,7 +15,7 @@ using Android.Support.V7.Widget;
 
 namespace VectPaint.Droid
 {
-	[Activity (Label = "VectPaint.Android", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity (Label = "VectPaint.Android", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
 	public class MainActivity : ActionBarActivity
 	{
 		XDataAndroid data = new XDataAndroid();

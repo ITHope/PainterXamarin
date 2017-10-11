@@ -1,0 +1,13 @@
+D:\VectPaint\VectPaint\VectPaint.iOS\bin\iPhone\Debug\VectPaint.iOS.exe
+D:\VectPaint\VectPaint\VectPaint.iOS\bin\iPhone\Debug\VectPaint.iOS.pdb
+D:\VectPaint\VectPaint\VectPaint.iOS\bin\iPhone\Debug\VectPaint.dll
+D:\VectPaint\VectPaint\VectPaint.iOS\bin\iPhone\Debug\VectPaint.pdb
+D:\VectPaint\VectPaint\VectPaint.iOS\bin\iPhone\Debug\VectPaint.dll.mdb
+D:\VectPaint\VectPaint\VectPaint.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\VectPaint\VectPaint\VectPaint.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\VectPaint\VectPaint\VectPaint.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\VectPaint\VectPaint\VectPaint.iOS\obj\iPhone\Debug\optimized\
+D:\VectPaint\VectPaint\VectPaint.iOS\obj\iPhone\Debug\VectPaint.iOS.csprojResolveAssemblyReference.cache
+D:\VectPaint\VectPaint\VectPaint.iOS\obj\iPhone\Debug\VectPaint.iOS.csproj.CoreCompileInputs.cache
+D:\VectPaint\VectPaint\VectPaint.iOS\obj\iPhone\Debug\VectPaint.iOS.exe
+D:\VectPaint\VectPaint\VectPaint.iOS\obj\iPhone\Debug\VectPaint.iOS.pdb

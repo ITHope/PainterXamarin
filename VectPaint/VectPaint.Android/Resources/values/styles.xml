@@ -5,6 +5,7 @@
     <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
   </style>
 
+  
   <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
     <item name="color">#000000</item>
     <item name="spinBars">true</item>
