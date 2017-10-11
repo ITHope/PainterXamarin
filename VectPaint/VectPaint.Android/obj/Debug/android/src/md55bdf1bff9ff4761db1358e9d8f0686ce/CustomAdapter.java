@@ -19,7 +19,7 @@ public class CustomAdapter
 	}
 
 
-	public CustomAdapter () throws java.lang.Throwable
+	public CustomAdapter ()
 	{
 		super ();
 		if (getClass () == CustomAdapter.class)

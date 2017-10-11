@@ -18,12 +18,12 @@ namespace VectPaint.Droid
 {
     public class MenuToggler : SupportActionBarDrawerToggle
     {
-        private ActionBarActivity mHostActivity;
+        private Context mHostActivity;
         private int mOpenedResource;
         private int mClosedResource;
 
-        public MenuToggler(ActionBarActivity host, DrawerLayout drawerLayout, int openedResource, int closedResource)
-        : base(host, drawerLayout, openedResource, closedResource)
+        public MenuToggler(Context host, DrawerLayout drawerLayout, int openedResource, int closedResource)
+        : base((AppCompatActivity)host, drawerLayout, openedResource, closedResource)
         {
             mHostActivity = host;
             mOpenedResource = openedResource;
@@ -37,7 +37,7 @@ namespace VectPaint.Droid
             if (drawerType == 0)
             {
                 base.OnDrawerOpened(drawerView);
-                mHostActivity.SupportActionBar.SetTitle(mOpenedResource);
+                ((AppCompatActivity)mHostActivity).SupportActionBar.SetTitle(mOpenedResource);
             }
         }
 
@@ -48,7 +48,7 @@ namespace VectPaint.Droid
             if (drawerType == 0)
             {
                 base.OnDrawerClosed(drawerView);
-                mHostActivity.SupportActionBar.SetTitle(mClosedResource);
+                ((AppCompatActivity)mHostActivity).SupportActionBar.SetTitle(mClosedResource);
             }
         }
 

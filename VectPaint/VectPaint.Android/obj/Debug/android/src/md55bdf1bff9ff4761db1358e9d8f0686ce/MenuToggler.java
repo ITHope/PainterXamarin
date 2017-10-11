@@ -18,7 +18,7 @@ public class MenuToggler
 	}
 
 
-	public MenuToggler (android.app.Activity p0, android.support.v4.widget.DrawerLayout p1, android.support.v7.widget.Toolbar p2, int p3, int p4) throws java.lang.Throwable
+	public MenuToggler (android.app.Activity p0, android.support.v4.widget.DrawerLayout p1, android.support.v7.widget.Toolbar p2, int p3, int p4)
 	{
 		super (p0, p1, p2, p3, p4);
 		if (getClass () == MenuToggler.class)
@@ -26,7 +26,7 @@ public class MenuToggler
 	}
 
 
-	public MenuToggler (android.app.Activity p0, android.support.v4.widget.DrawerLayout p1, int p2, int p3) throws java.lang.Throwable
+	public MenuToggler (android.app.Activity p0, android.support.v4.widget.DrawerLayout p1, int p2, int p3)
 	{
 		super (p0, p1, p2, p3);
 		if (getClass () == MenuToggler.class)

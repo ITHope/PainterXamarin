@@ -1,0 +1,10 @@
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\bin\Debug\UITest.dll
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\bin\Debug\UITest.pdb
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\bin\Debug\nunit.framework.dll
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\bin\Debug\Xamarin.UITest.dll
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\bin\Debug\nunit.framework.xml
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\bin\Debug\Xamarin.UITest.xml
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\obj\Debug\UITest.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\obj\Debug\UITest.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\obj\Debug\UITest.dll
+C:\Users\Student\Documents\WizDev\VectPaint\UITest\obj\Debug\UITest.pdb

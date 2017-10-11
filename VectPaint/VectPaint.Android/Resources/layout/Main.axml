@@ -26,8 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
         <!--<TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
         <ListView
             android:id="@+id/left_menu"
             android:layout_width="200dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:choiceMode="singleChoice"
             android:divider="#818181"
@@ -54,11 +54,43 @@
         <ListView
             android:id="@+id/right_menu"
             android:layout_width="200dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:choiceMode="singleChoice"
             android:divider="#E2E2E2"
             android:dividerHeight="1dp"
             android:background="#9E9E9E" />
     </android.support.v4.widget.DrawerLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#550000">
+    <VectPaint.Droid.PDraw
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pDraw"
+        android:background="@android:color/background_light"
+        android:layout_weight="15"
+        android:theme="@style/Theme.AppCompat.Light"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:minWidth="25px"
+        android:layout_height="match_parent"
+        android:layout_weight="85"
+        android:minHeight="25px"
+        android:weightSum="3">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/spType"
+            android:prompt="@string/type_prompt"
+            android:layout_weight="1"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+</LinearLayout>
 </LinearLayout>

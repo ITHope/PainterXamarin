@@ -2,7 +2,7 @@ package md55bdf1bff9ff4761db1358e9d8f0686ce;
 
 
 public class MainActivity
-	extends android.support.v7.app.ActionBarActivity
+	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {
@@ -11,6 +11,7 @@ public class MainActivity
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
+			"n_onResume:()V:GetOnResumeHandler\n" +
 			"n_onOptionsItemSelected:(Landroid/view/MenuItem;)Z:GetOnOptionsItemSelected_Landroid_view_MenuItem_Handler\n" +
 			"n_onCreateOptionsMenu:(Landroid/view/Menu;)Z:GetOnCreateOptionsMenu_Landroid_view_Menu_Handler\n" +
 			"n_onConfigurationChanged:(Landroid/content/res/Configuration;)V:GetOnConfigurationChanged_Landroid_content_res_Configuration_Handler\n" +
@@ -19,7 +20,7 @@ public class MainActivity
 	}
 
 
-	public MainActivity () throws java.lang.Throwable
+	public MainActivity ()
 	{
 		super ();
 		if (getClass () == MainActivity.class)
@@ -33,6 +34,14 @@ public class MainActivity
 	}
 
 	private native void n_onCreate (android.os.Bundle p0);
+
+
+	public void onResume ()
+	{
+		n_onResume ();
+	}
+
+	private native void n_onResume ();
 
 
 	public boolean onOptionsItemSelected (android.view.MenuItem p0)

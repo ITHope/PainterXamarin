@@ -15,8 +15,8 @@ using Android.Support.V7.Widget;
 
 namespace VectPaint.Droid
 {
-	[Activity (Label = "VectPaint.Android", MainLauncher = true, Icon = "@drawable/icon")]
-	public class MainActivity : ActionBarActivity
+	[Activity (Label = "VectPaint.Android", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/MyTheme")]
+	public class MainActivity : AppCompatActivity
 	{
 		XDataAndroid data = new XDataAndroid();
         private SupportToolbar mToolbar;
@@ -30,11 +30,12 @@ namespace VectPaint.Droid
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.Draw);
-            FindViewById<PDraw>(Resource.Id.pDraw).data = data;
-            SetSpinnersListeners();
+            SetContentView(Resource.Layout.Main);            
+        }
 
-
+        protected override void OnResume()
+        {
+            base.OnResume();
             mToolbar = FindViewById<SupportToolbar>(Resource.Id.toolbar);
             SetSupportActionBar(mToolbar);
 
@@ -47,6 +48,10 @@ namespace VectPaint.Droid
             mRightDrawer = FindViewById<ListView>(Resource.Id.right_menu);
             mTab = FindViewById<Spinner>(Resource.Id.Tabs);
 
+            FindViewById<PDraw>(Resource.Id.pDraw).data = data;
+
+            SetSpinnersListeners();
+
             mLeftDrawer.Tag = 0;
             mRightDrawer.Tag = 1;
 
@@ -56,15 +61,13 @@ namespace VectPaint.Droid
             lmenu.Add("View", new string[] { "ToolBar", "ToolBox" });
 
             Dictionary<string, string[]> rmenu = new Dictionary<string, string[]>();
-            rmenu.Add("Language", new string[] { "English", "Russian", "Ukrainian" });
-            rmenu.Add("Skins", new string[] { "Skin1", "Skin2", "Skin3" });
+            rmenu.Add("Language", new string[] { "English", "Russian" });
+            rmenu.Add("Skins", new string[] { "Light", "Dark" });
             rmenu.Add("Help", new string[] { "FAQ", "About" });
 
             var adapterTab = ArrayAdapter.CreateFromResource(this, Resource.Array.tabs_array, Android.Resource.Layout.SimpleSpinnerItem);
             adapterTab.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
             mTab.Adapter = adapterTab;
-
-
 
             mLeftDrawer.Adapter = new CustomAdapter(this, lmenu);
             mRightDrawer.Adapter = new CustomAdapter(this, rmenu);
@@ -82,6 +85,7 @@ namespace VectPaint.Droid
             SupportActionBar.SetDisplayShowTitleEnabled(false);
             menuToggler.SyncState();
         }
+
         private void SetSpinnersListeners()
         {
             Spinner spType = FindViewById<Spinner>(Resource.Id.spType);
