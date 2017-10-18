@@ -31,9 +31,22 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Controllers\IXCommand.cs" />
+    <Compile Include="Controllers\Localization.cs" />
+    <Compile Include="Controllers\PluginManager.cs" />
+    <Compile Include="Controllers\SkinController.cs" />
+    <Compile Include="Controllers\XCommand.cs" />
     <Compile Include="IFigure.cs" />
+    <Compile Include="Models\IPlugin.cs" />
+    <Compile Include="Models\IPluginFigure.cs" />
+    <Compile Include="Models\IPluginFile.cs" />
+    <Compile Include="Models\MFigure.cs" />
+    <Compile Include="Models\MTab.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="IXData.cs" />
+    <Compile Include="Models\IXData.cs" />
+    <Compile Include="Models\XData.cs" />
+    <Compile Include="Views\PFigure.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
